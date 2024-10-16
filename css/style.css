@@ -18,8 +18,14 @@ a {
   text-decoration: none;
 }
 
-.container {
+.big-container {
   max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -113,4 +119,75 @@ body {
   align-self: center;
   margin-top: auto;
   margin-bottom: 30px;
+}
+
+.info {
+  margin-bottom: 100px;
+}
+
+.info__part {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.info__part_first {
+  display: block;
+}
+
+.info__part_third {
+  padding-top: 66px;
+}
+
+.info__title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.info__part-textbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.info__text {
+  flex-basis: 440px;
+  margin-bottom: 30px;
+}
+
+.info__part_second .info__text {
+  max-width: 352px;
+}
+
+.info__part_third .info__text {
+  max-width: 377px;
+}
+
+.info__part-img {
+  object-fit: cover;
+}
+
+.info__content {
+  flex-basis: 415px;
+}
+
+.info__table {
+  position: relative;
+  top: 20px;
+  flex-basis: 450px;
+  border-bottom: 1px solid #040404;
+}
+
+.info__table::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  border-top: 1px solid #040404;
+}
+
+.info__table td {
+  padding-bottom: 20px;
 }
