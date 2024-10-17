@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .big-container {
   max-width: 1220px;
   margin: 0 auto;
@@ -349,4 +353,150 @@ body {
 .evo-white__video-link span {
   display: block;
   color: #fff;
+}
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog__slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog__title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.blog__item-img {
+  margin-bottom: 20px;
+}
+
+.blog__item-title {
+  min-height: 46px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.blog__item-text {
+  margin-bottom: 10px;
+}
+
+.blog__item-link {
+  color: #363636;
+  font-size: 12px;
+}
+
+.blog__button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.swiper-button-left {
+  transform: translateX(-135%);
+}
+
+.swiper-button-right {
+  transform: translateX(25%);
+}
+
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.blog__quote-box {
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote__name {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.blockquote__name span {
+  display: block;
+  margin-bottom: 3px;
+  color: #9f6b08;
+  font-size: 12px;
+}
+
+.blockquote__text {
+  font-style: italic;
+}
+
+.footer {
+  padding: 100px 0 80px;
+  background-color: #363636;
+  color: #fff;
+}
+
+.footer__title {
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.footer__info-item {
+  margin-bottom: 40px;
+}
+
+.footer__info-item dt,
+.footer__address-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__info-item dd {
+  margin-bottom: 10px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.footer__address {
+  flex-basis: 462px;
+}
+
+#map {
+  height: 250px;
+}
+
+.footer__address-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
 }
